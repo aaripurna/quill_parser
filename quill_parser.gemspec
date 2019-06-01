@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Trying to make a gem for quill editor ops parser.}
   spec.description   = %q{Still in development not really sure how to creat it.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/aaripurna/quill_parser"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
     spec.metadata["allowed_push_host"] = ""
 
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = ""
-    spec.metadata["changelog_uri"] = ""
+    spec.metadata["source_code_uri"] = "https://github.com/aaripurna/quill_parser"
+    spec.metadata["changelog_uri"] = "https://github.com/aaripurna/quill_parser/CHANGELOG.md"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
@@ -39,4 +39,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "pry"
 end

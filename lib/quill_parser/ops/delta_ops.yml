@@ -1,0 +1,24 @@
+background:
+  type: style
+  prop: background-color
+
+color:
+  type: style
+  prop: color
+
+link:
+  type: tag
+  tag: a
+
+underline:
+  type: tag
+  tag: u
+
+bold: 
+  type: tag
+  tag: strong
+  
+image:
+  type: embed
+  tag: img
+  prop: src
