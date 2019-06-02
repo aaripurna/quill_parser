@@ -9,6 +9,7 @@ color:
 link:
   type: tag
   tag: a
+  attribute: href
 
 underline:
   type: tag
@@ -17,8 +18,34 @@ underline:
 bold: 
   type: tag
   tag: strong
-  
+
 image:
   type: embed
   tag: img
   prop: src
+
+strike:
+  type: tag
+  tag: s
+
+code-block:
+  type: tag
+  tag: code
+
+blackquote: 
+  type: tag
+  tag: blackquote
+
+header:
+  type: dynamic
+  prefix: h
+
+list:
+  type: list
+
+align:
+  type: style
+
+script:
+  type: dynamic
+  prefix: ""
